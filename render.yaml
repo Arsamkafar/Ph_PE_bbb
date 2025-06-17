@@ -2,7 +2,7 @@ services:
   - type: worker
     name: ph-downloader
     env: python
-    repo: https://github.com/USERNAME/ph_downloader_bot
+    repo: https://github.com/Arsamkafar/Ph_PE_bbb
     branch: main
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
