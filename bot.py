@@ -2,8 +2,8 @@ import os, re
 from aiogram import Bot, Dispatcher, executor, types
 from downloader import download_from_pornhub
 
-API_TOKEN = os.getenv('API_TOKEN')
-ALLOWED_USER_ID = int(os.getenv('ALLOWED_USER_ID'))
+API_TOKEN = os.getenv('7745614128:AAFc3A0Eell5yNbSO_T71oOdMIuff_JS9Os')
+ALLOWED_USER_ID = int(os.getenv('970993631'))
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
